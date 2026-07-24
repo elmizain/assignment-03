@@ -24,17 +24,31 @@ namespace assignment_03
             //Console.WriteLine("\nQ2:");
             //Console.WriteLine(Object.ReferenceEquals(str1, str2));
 
-            // Q3: StringBuilder Append
+            //// Q3: StringBuilder Append
+            //// =========================
+            //StringBuilder sb = new StringBuilder();
+
+            //sb.Append("Book List");
+            //sb.Append(" - Updated");
+
+            //Console.WriteLine("\nQ3:");
+            //Console.WriteLine(sb);
+
+            ////======================
+
+            // Q4: StringBuilder Replace
             // =========================
-            StringBuilder sb = new StringBuilder();
+      
 
-            sb.Append("Book List");
-            sb.Append(" - Updated");
+            StringBuilder sb = new StringBuilder("Book List");
+            sb.Replace("Book List", "Library");
 
-            Console.WriteLine("\nQ3:");
+            Console.WriteLine("\nQ4:");
             Console.WriteLine(sb);
 
-            //======================
+
+
+
         }
     }
 }
