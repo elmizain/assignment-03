@@ -82,17 +82,24 @@ namespace assignment_03
             //Console.WriteLine("\nQ8:");
             //Console.WriteLine(nullablePages ?? 0);
 
-            // Q9: Null Propagation (?.)
+            //// Q9: Null Propagation (?.)
+            //// =========================
+            //string? author = null;
+
+            //Console.WriteLine("\nQ9:");
+            //Console.WriteLine(author?.Length);
+            //// =========================
+
+
+            // Q10: Array
             // =========================
-            string? author = null;
+            double[] prices = { 25.5, 40.0, 33.75 };
 
-            Console.WriteLine("\nQ9:");
-            Console.WriteLine(author?.Length);
-            // =========================
-
-
-
-
+            Console.WriteLine("\nQ10:");
+            Console.WriteLine(prices[1]);
         }
     }
+
 }
+    
+
