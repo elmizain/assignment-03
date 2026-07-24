@@ -75,12 +75,20 @@ namespace assignment_03
             //Console.WriteLine("\nQ7:");
             //Console.WriteLine(result3);
 
-            // Q8: Null Coalescing (??)
-            // =========================
-            int? nullablePages = null;
+            //// Q8: Null Coalescing (??)
+            //// =========================
+            //int? nullablePages = null;
 
-            Console.WriteLine("\nQ8:");
-            Console.WriteLine(nullablePages ?? 0);
+            //Console.WriteLine("\nQ8:");
+            //Console.WriteLine(nullablePages ?? 0);
+
+            // Q9: Null Propagation (?.)
+            // =========================
+            string? author = null;
+
+            Console.WriteLine("\nQ9:");
+            Console.WriteLine(author?.Length);
+            // =========================
 
 
 
