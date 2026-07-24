@@ -56,17 +56,26 @@ namespace assignment_03
             //Console.WriteLine("\nQ5:");
             //Console.WriteLine(result1);
 
-            // Q6: String Interpolation
+            //// Q6: String Interpolation
+            //// =========================
+            //string bookTitle = "Clean Code";
+            //int pages = 464;
+            //string result2 = $"Book: {bookTitle}, Pages: {pages}";
+
+            //Console.WriteLine("\nQ6:");
+            //Console.WriteLine(result2);
+            //// =========================
+
+            // Q7: string.Format()
             // =========================
             string bookTitle = "Clean Code";
             int pages = 464;
-            string result2 = $"Book: {bookTitle}, Pages: {pages}";
+            string result3 = string.Format("Book: {0}, Pages: {1}", bookTitle, pages);
 
-            Console.WriteLine("\nQ6:");
-            Console.WriteLine(result2);
-            // =========================
+            Console.WriteLine("\nQ7:");
+            Console.WriteLine(result3);
 
-
+            
 
 
 
