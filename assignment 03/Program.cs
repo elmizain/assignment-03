@@ -66,16 +66,22 @@ namespace assignment_03
             //Console.WriteLine(result2);
             //// =========================
 
-            // Q7: string.Format()
+            //// Q7: string.Format()
+            //// =========================
+            //string bookTitle = "Clean Code";
+            //int pages = 464;
+            //string result3 = string.Format("Book: {0}, Pages: {1}", bookTitle, pages);
+
+            //Console.WriteLine("\nQ7:");
+            //Console.WriteLine(result3);
+
+            // Q8: Null Coalescing (??)
             // =========================
-            string bookTitle = "Clean Code";
-            int pages = 464;
-            string result3 = string.Format("Book: {0}, Pages: {1}", bookTitle, pages);
+            int? nullablePages = null;
 
-            Console.WriteLine("\nQ7:");
-            Console.WriteLine(result3);
+            Console.WriteLine("\nQ8:");
+            Console.WriteLine(nullablePages ?? 0);
 
-            
 
 
 
