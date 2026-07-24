@@ -36,15 +36,27 @@ namespace assignment_03
 
             ////======================
 
-            // Q4: StringBuilder Replace
+            //// Q4: StringBuilder Replace
+            //// =========================
+
+
+            //StringBuilder sb = new StringBuilder("Book List");
+            //sb.Replace("Book List", "Library");
+
+            //Console.WriteLine("\nQ4:");
+            //Console.WriteLine(sb);
+
+            // Q5: String Concatenation (+)
             // =========================
-      
+            string bookTitle = "Clean Code";
+            int pages = 464;
 
-            StringBuilder sb = new StringBuilder("Book List");
-            sb.Replace("Book List", "Library");
+            string result1 = "Book: " + bookTitle + ", Pages: " + pages;
 
-            Console.WriteLine("\nQ4:");
-            Console.WriteLine(sb);
+            Console.WriteLine("\nQ5:");
+            Console.WriteLine(result1);
+
+            
 
 
 
